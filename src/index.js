@@ -4,7 +4,7 @@ const app = express();
 require('./db/mongo'); 
 const User = require('./model/user'); 
 const AddNewProject = require('./model/addnewproject'); 
-const port = process.env.PORT || 3000 
+const port = process.env.PORT || 4000 
 const userRouter = require('./routers/users')
 const addNewProjectRouter = require('./routers/addnewproject')
 

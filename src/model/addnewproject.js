@@ -7,7 +7,7 @@ const addNewProject = mongoose.model('NewProject', {
         require: true
     }, 
     dateofProject:{
-        type: String, 
+        type: Date, 
         require: true,
     },
     brand:{
@@ -35,7 +35,7 @@ const addNewProject = mongoose.model('NewProject', {
         require: true
     }, 
     shootDates:{
-        type: String, 
+        type: Date, 
         require: true
     }, 
     numberOfDays:{
